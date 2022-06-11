@@ -12,4 +12,4 @@ Collection of different materials regarding multiomics integration, used as a pe
 
 ### [GLUE](https://www.nature.com/articles/s41587-022-01284-4)
 
-(Graph) variational autoencoders to obtain a common low-dimensional embedding from cells in different omics. The key ideas are: encoder/ decoder to allow reconstruction, prior information from a knowledge graph to ensure that similar cells are mapped to similar embedding, and an additional decoder trained adversarially so that different omics have a common semantic. [Here](/documents/GLUE.pdf) a formal derivation of the loss function. 
+(Graph) variational autoencoders to obtain meaningful low-dimensional embedding from cells in different omics. The key ideas are: encoder/ decoder to allow reconstruction, prior information from a knowledge graph to ensure that similar cells are mapped to similar embeddings, and an additional decoder trained adversarially so that different omics have a common semantic. [Here](/documents/GLUE.pdf) a formal derivation of the loss function. 
